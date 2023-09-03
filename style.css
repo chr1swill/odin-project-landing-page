@@ -137,6 +137,11 @@ p {
 
 /* hero */
 
+#hero {
+  background-color: var(--clr-primary);
+  padding: 8rem var(--side-padding);
+}
+
 .hero-left {
   max-width: 90%;
   height: auto;
@@ -145,18 +150,13 @@ p {
 .hero-image {
   display: grid;
   place-content: center;
-  background-color: rgba(229, 231, 235, 0.5);
+  background-color: rgba(229, 231, 235, 0.55);
   color: var(--clr-text);
   max-width: 110%;
 }
 
 .hero-image p {
   color: var(--clr-text);
-}
-
-#hero {
-  background-color: var(--clr-primary);
-  padding: 8rem var(--side-padding);
 }
 
 .button {
