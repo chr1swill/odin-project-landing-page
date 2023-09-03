@@ -98,11 +98,18 @@ body {
 .flex-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .two-column-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+/* header */
+
+header {
+  background-color: var(--clr-primary);
 }
 
 .logo {
