@@ -91,7 +91,7 @@ body {
 
 .container {
   max-width: 100%;
-  padding: 0% max(20%, 16px);
+  padding: 0% max(15%, 2rem);
   margin: 0 auto;
 }
 
