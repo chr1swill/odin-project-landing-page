@@ -58,3 +58,10 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+:root {
+  --clr-primary: #1f2937;
+  --clr-text: #f9faf8;
+  --clr-secondary: #e5e7eb;
+  --clr-accent: #3882f6;
+}
