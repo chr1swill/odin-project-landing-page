@@ -89,7 +89,8 @@ body {
 /* utility classes */
 
 .container {
-  max-width: 80%;
+  max-width: 100%;
+  padding: 0% max(20%, 16px);
   margin: 0 auto;
 }
 
