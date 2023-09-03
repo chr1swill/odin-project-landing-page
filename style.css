@@ -133,6 +133,7 @@ p {
 
 .header-link {
   padding: 0rem 1rem;
+  font-size: var(--fs-100);
 }
 
 /* hero */
@@ -168,3 +169,5 @@ p {
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
 }
+
+/* features */
