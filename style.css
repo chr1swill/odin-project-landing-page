@@ -77,6 +77,8 @@ h6 {
   --fw-500: 500;
   --fw-400: 400;
   --fw-300: 300;
+
+  --side-padding: max(15%, 2rem);
 }
 
 body {
@@ -88,12 +90,6 @@ body {
 }
 
 /* utility classes */
-
-.container {
-  max-width: 100%;
-  padding: 0rem max(15%, 2rem);
-  margin: 0 auto;
-}
 
 .flex-row {
   display: flex;
@@ -108,8 +104,9 @@ body {
 
 /* header */
 
-header {
+#header {
   background-color: var(--clr-primary);
+  padding: 1rem var(--side-padding);
 }
 
 .logo {
