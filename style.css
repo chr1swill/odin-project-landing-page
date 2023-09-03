@@ -79,14 +79,28 @@ h6 {
   --fw-300: 300;
 
   --side-padding: max(15%, 2rem);
+  --single-margin-value: 1em;
+  --top-margin: var(--single-margin-value) 0em 0em 0em;
 }
 
 body {
   font-family: var(--default-font);
   font-size: var(--fs-100);
   font-weight: var(--fw-400);
-  color: var(--clr-text);
+  color: var(--clr-secondary);
   background-color: black;
+}
+
+h1 {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-900);
+  color: var(--clr-text);
+  margin: var(--top-margin);
+}
+
+p {
+  color: var(--clr-secondary);
+  margin: var(--single-margin-value) 0em var(--single-margin-value) 0em;
 }
 
 /* utility classes */
@@ -100,6 +114,7 @@ body {
 .two-column-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 /* header */
@@ -110,11 +125,46 @@ body {
 }
 
 .logo {
-  align-self: flex-start;
   font-size: var(--fs-200);
   font-weight: var(--fw-900);
+  align-self: flex-start;
+  color: var(--clr-text);
 }
 
 .header-link {
   padding: 0rem 1rem;
+}
+
+/* hero */
+
+.hero-left {
+  max-width: 90%;
+  height: auto;
+}
+
+.hero-image {
+  display: grid;
+  place-content: center;
+  background-color: rgba(229, 231, 235, 0.5);
+  color: var(--clr-text);
+  max-width: 110%;
+}
+
+.hero-image p {
+  color: var(--clr-text);
+}
+
+#hero {
+  background-color: var(--clr-primary);
+  padding: 8rem var(--side-padding);
+}
+
+.button {
+  background-color: var(--clr-accent);
+  color: var(--clr-text);
+  font-weight: var(--fw-500);
+  margin: var(--top-margin);
+  max-width: 33%;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
 }
