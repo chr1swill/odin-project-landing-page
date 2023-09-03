@@ -89,10 +89,15 @@ h6 {
 .flex-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .two-column-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+  display: inline-flex;
+  font-size: var(--fs-200);
+  font-weight: var(--fw-900);
 }
