@@ -78,3 +78,21 @@ h6 {
   --fw-400: 400;
   --fw-300: 300;
 }
+
+/* utility classes */
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.two-column-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
