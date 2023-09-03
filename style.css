@@ -64,4 +64,9 @@ h6 {
   --clr-text: #f9faf8;
   --clr-secondary: #e5e7eb;
   --clr-accent: #3882f6;
+
+  --fs-400: 48px;
+  --fs-300: 36px;
+  --fs-200: 24px;
+  --fs-100: 18px;
 }
