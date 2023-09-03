@@ -91,7 +91,7 @@ body {
 
 .container {
   max-width: 100%;
-  padding: 0% max(15%, 2rem);
+  padding: 0rem max(15%, 2rem);
   margin: 0 auto;
 }
 
@@ -110,6 +110,7 @@ body {
 
 header {
   background-color: var(--clr-primary);
+  padding: 1rem 0rem;
 }
 
 .logo {
