@@ -98,6 +98,13 @@ h1 {
   margin: var(--top-margin);
 }
 
+h2 {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-700);
+  color: var(--clr-primary);
+  margin: var(--top-margin);
+}
+
 p {
   color: var(--clr-secondary);
   margin: var(--single-margin-value) 0em var(--single-margin-value) 0em;
