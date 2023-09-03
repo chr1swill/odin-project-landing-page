@@ -65,8 +65,16 @@ h6 {
   --clr-secondary: #e5e7eb;
   --clr-accent: #3882f6;
 
+  --default-font: "Roboto", sans-serif;
+
   --fs-400: 48px;
   --fs-300: 36px;
   --fs-200: 24px;
   --fs-100: 18px;
+
+  --fw-900: 900;
+  --fw-700: 700;
+  --fw-500: 500;
+  --fw-400: 400;
+  --fw-300: 300;
 }
