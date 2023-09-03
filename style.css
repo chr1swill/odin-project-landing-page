@@ -79,6 +79,13 @@ h6 {
   --fw-300: 300;
 }
 
+body {
+  font-family: var(--default-font);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-400);
+  color: var(--clr-text);
+}
+
 /* utility classes */
 
 .container {
@@ -97,7 +104,7 @@ h6 {
 }
 
 .logo {
-  display: inline-flex;
+  align-self: flex-start;
   font-size: var(--fs-200);
   font-weight: var(--fw-900);
 }
