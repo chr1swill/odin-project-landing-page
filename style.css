@@ -81,6 +81,7 @@ h6 {
   --side-padding: max(15%, 2rem);
   --single-margin-value: 1em;
   --top-margin: var(--single-margin-value) 0em 0em 0em;
+  --border-radius: var(--border-radius);
 }
 
 body {
@@ -100,7 +101,7 @@ h1 {
 
 h2 {
   font-size: var(--fs-300);
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-900);
   color: var(--clr-primary);
   margin: var(--top-margin);
 }
@@ -174,7 +175,22 @@ p {
   margin: var(--top-margin);
   max-width: 33%;
   padding: 0.5rem 2rem;
-  border-radius: 0.5rem;
+  border-radius: var(--border-radius);
 }
 
 /* features */
+
+#features {
+  background-color: var(--clr-text);
+  padding: 10rem var(--side-padding);
+}
+
+#features h2 {
+  text-align: center;
+}
+
+.square-with-border {
+  background-color: var(--clr-text);
+  border: 2px solid var(--clr-accent);
+  border-radius: var(--border-radius);
+}
