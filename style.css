@@ -270,3 +270,14 @@ p {
   border: 2px solid var(--clr-text);
   border-radius: var(--button-border-radius);
 }
+
+/* footer */
+
+#footer {
+  background-color: var(--clr-primary);
+  padding: 0.5rem var(--side-padding);
+}
+
+#footer p {
+  text-align: center;
+}
