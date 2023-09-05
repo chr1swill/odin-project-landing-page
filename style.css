@@ -182,10 +182,18 @@ p {
   padding: 10rem var(--side-padding);
 }
 
+#features h2 {
+  margin: 0 0 var(--single-margin-value) 0;
+}
+
 #features h2,
 #features p {
   text-align: center;
   color: var(--clr-primary);
+}
+
+#features .flex-row {
+  gap: 3rem;
 }
 
 .square-with-border {
