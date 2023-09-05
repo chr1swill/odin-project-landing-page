@@ -183,7 +183,8 @@ p {
   padding: 10rem var(--side-padding);
 }
 
-#features h2 {
+#features h2,
+p {
   text-align: center;
 }
 
