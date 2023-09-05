@@ -101,7 +101,6 @@ h1 {
 h2 {
   font-size: var(--fs-300);
   font-weight: var(--fw-900);
-  color: var(--clr-primary);
 }
 
 p {
@@ -186,6 +185,7 @@ p {
 #features h2,
 #features p {
   text-align: center;
+  color: var(--clr-primary);
 }
 
 .square-with-border {
