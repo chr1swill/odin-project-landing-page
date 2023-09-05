@@ -96,14 +96,12 @@ h1 {
   font-size: var(--fs-400);
   font-weight: var(--fw-900);
   color: var(--clr-text);
-  margin: var(--top-margin);
 }
 
 h2 {
   font-size: var(--fs-300);
   font-weight: var(--fw-900);
   color: var(--clr-primary);
-  margin: var(--top-margin);
 }
 
 p {
