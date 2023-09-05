@@ -81,7 +81,7 @@ h6 {
   --side-padding: max(15%, 2rem);
   --single-margin-value: 1em;
   --top-margin: var(--single-margin-value) 0em 0em 0em;
-  --border-radius: 20px;
+  --button-border-radius: 10px;
 }
 
 body {
@@ -173,7 +173,7 @@ p {
   margin: var(--top-margin);
   max-width: 33%;
   padding: 0.5rem 2rem;
-  border-radius: var(--border-radius);
+  border-radius: var(--button-border-radius);
 }
 
 /* features */
@@ -194,5 +194,5 @@ p {
   aspect-ratio: 1;
   background-color: var(--clr-text);
   border: 3px solid var(--clr-accent);
-  border-radius: var(--border-radius);
+  border-radius: 20px;
 }
