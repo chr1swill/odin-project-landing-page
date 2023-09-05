@@ -81,7 +81,7 @@ h6 {
   --side-padding: max(15%, 2rem);
   --single-margin-value: 1em;
   --top-margin: var(--single-margin-value) 0em 0em 0em;
-  --border-radius: var(--border-radius);
+  --border-radius: 20px;
 }
 
 body {
@@ -188,7 +188,10 @@ p {
 }
 
 .square-with-border {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1;
   background-color: var(--clr-text);
-  border: 2px solid var(--clr-accent);
+  border: 3px solid var(--clr-accent);
   border-radius: var(--border-radius);
 }
