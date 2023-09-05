@@ -122,6 +122,11 @@ p {
   gap: 2rem;
 }
 
+.four-column-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 /* header */
 
 #header {
@@ -192,7 +197,7 @@ p {
   color: var(--clr-primary);
 }
 
-#features .flex-row {
+#features .four-column-grid {
   gap: 3rem;
 }
 
