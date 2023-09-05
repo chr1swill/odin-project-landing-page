@@ -230,3 +230,43 @@ p {
   text-align: right;
   color: var(--clr-primary);
 }
+
+/* call to action */
+
+#call-to-action {
+  background-color: var(--clr-text);
+  padding: 4rem var(--side-padding);
+}
+
+.card {
+  max-width: 100%;
+  height: auto;
+  padding: 2rem 5rem;
+  border-radius: var(--button-border-radius);
+  background-color: var(--clr-accent);
+}
+
+.card__title,
+.card__text {
+  margin: 0em var(--single-margin-value) 0em 0em;
+}
+
+.card__title {
+  font-size: var(--fs-200);
+  font-weight: var(--fw-500);
+  color: var(--clr-text);
+}
+
+.card__text {
+  color: rgba(229, 231, 235, 0.8);
+}
+
+.card__button {
+  background-color: var(--clr-accent);
+  color: var(--clr-text);
+  font-weight: var(--fw-500);
+  max-width: 33%;
+  padding: 0.25rem 2rem;
+  border: 2px solid var(--clr-text);
+  border-radius: var(--button-border-radius);
+}
